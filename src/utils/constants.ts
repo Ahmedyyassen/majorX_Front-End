@@ -1,5 +1,5 @@
-export const HOST = import.meta.env.VITE_SERVER_URL;
-
+// export const HOST = import.meta.env.VITE_SERVER_URL;
+export const HOST = "http://localhost:3030"
 const AUTH_ROUTES = "/api/auth";
 export const SIGNIN_ROUTE          = `${AUTH_ROUTES}/login`;
 export const SIGNUP_ROUTE          = `${AUTH_ROUTES}/register`;
